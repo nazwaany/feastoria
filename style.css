@@ -130,4 +130,19 @@
     font-family: Quicksand;
     font-size: 16px;
     margin: 0;
+
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    header {
+        font-size: 1,2em;
+    }
 }
