@@ -1,0 +1,133 @@
+.navbar-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 10%;
+    padding: 5px 5% 10px 5%;
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+}
+
+.box-logo-navbar{
+    display: flex;
+    width: 20%px;
+    margin-right: 15%;
+}
+
+.gambar-logo{
+    width: 35%;
+}
+
+.tulisan-logo{
+    margin: auto;
+    font-size: 30px;
+    color: #A42C21;
+}
+
+.box-navbar-links{
+    width: 45%;
+    padding-top: 2%;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: black;
+    font-family: Quicksand;
+    margin-right: 20px;
+}
+
+.box-login-search-cart{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.login-register-text{
+    text-decoration: none;
+    color: #DC2525;
+    font-family: Quicksand;
+}
+
+/* LANDING PAGE */
+
+.landing-page-container{
+    display: flex;
+    padding: 0 10%;
+    height: max-content;
+    background: rgba(0 ,0 ,0 ,0.5) url(gambar/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.landing-text{
+    width: 600px;
+    height: 350px;
+    margin: 20% 100px 0 0;
+    padding-top: 4%;
+    color: white;
+}
+
+.landing-text-1{
+    width: 100%;
+    margin: 0px;
+    font-size: 30px;
+    letter-spacing: 15px;
+    font-family: Righteous;
+}
+
+.landing-text-2{
+    width: 100%;
+    margin: 0px;
+    font-size: 80px;
+    text-align: end;
+    font-family: Righteous;
+}
+
+.landing-gambar{
+    width: 450px;
+    margin: 14% 0 0 0;
+}
+
+.gambar-eclipse{
+    width: 300px;
+}
+
+/* ABOUT US */
+.about-us-container{
+    display: flex;
+    background: url(/gambar/bg\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-about-us-gambar{
+    height: 600px;
+}
+
+.about-us-gambar{
+    width: 400px;
+    margin: 200px 20px 0 150px ;
+    
+}
+
+.box-about-us-text{
+    width: 550px;
+    margin: 290px 0 0 10px;
+}
+
+.text-about-us-judul{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+.text-about-us-paragraph{
+    font-family: Quicksand;
+    font-size: 16px;
+    margin: 0;
+}
